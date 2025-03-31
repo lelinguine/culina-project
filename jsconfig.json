@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["resources/js/*"],
+        "@views/*": ["resources/js/views/*"],
+        "@assets/*": ["resources/assets/*"],
+        "@scss/*": ["resources/scss/*"],
+        "@controllers/*": ["resources/js/controllers/*"],
+      }
+    },
+    "include": [
+      "resources/js/**/*",
+      "resources/views/**/*",
+      "resources/assets/**/*",
+      "ressources/scss/**/*",
+      "resources/js/controllers/**/*",
+    ]
+  }
+  
